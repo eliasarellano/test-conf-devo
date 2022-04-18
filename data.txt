@@ -1,0 +1,10 @@
+<?php
+echo "Hello DevoTeamers ";
+echo "<br>"; 
+echo "Here we do the following tasks for Continuous Integration";
+echo "<br>";
+echo "Testing"; 
+echo "<br>";
+echo "Building"; 
+echo "<br>";
+?>
