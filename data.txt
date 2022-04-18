@@ -3,8 +3,8 @@ echo "Hello DevoTeamers ";
 echo "<br>"; 
 echo "Here we do the following tasks for Continuous Integration";
 echo "<br>";
-echo "Testing"; 
+echo "1- Testing"; 
 echo "<br>";
-echo "Building"; 
+echo "2- Building"; 
 echo "<br>";
 ?>
