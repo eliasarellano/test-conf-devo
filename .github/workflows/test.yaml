@@ -30,12 +30,10 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
         #We build and push the image into our Docker Hub repository 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/test-devo-conf:website2
+          tags: ${{ secrets.DOCKER_USERNAME }}/test-devo-conf:website3
